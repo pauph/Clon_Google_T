@@ -16,10 +16,12 @@
         <nav>
             <ul class="nav-right--section">
                 <li>
-                    <a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a>
+                    <a href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a> <!-- Aquí está a primera diferencia, pues en la rama Layout, también está la eqtiqueta de un link , sin embargo no está enlazado. -->
+                </li>
                 </li>
                 <li>
-                    <a href="https://www.google.com.mx/imghp?hl=es&tab=ri&ogbl">Imágenes</a>
+                    <a href="https://www.google.com.mx/imghp?hl=es&tab=ri&ogbl">Imágenes</a><!-- Igual en esta línea en la rama Layout no está enlazado. -->
+                </li>
                 </li>
                 <a href="#">
                     <li class="menu-icon">
@@ -28,7 +30,7 @@
                 <li>
                     <a href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=act&pli=1"><img
                             src="https://lh3.googleusercontent.com/ogw/ADGmqu_Mk3m1VQZZ3DKKMuSS2nRCcQsj2iSUdBH7L3jU=s32-c-mo"
-                            alt="Profile picture"></a>
+                            alt="Profile picture"></a> <!-- En la rama Master toma la imagen de tu perfil -->
                 </li>
             </ul>
         </nav>
@@ -36,22 +38,22 @@
     <main>
         <section class="main-logo">
             <picture>
-                <img src="./assets/imgs/google_logo.svg" alt="Google logo">
+                <img src="./assets/imgs/google_logo.svg" alt="Google logo"> <!-- En la rama Layout no está la dirección del logo -->
             </picture>
         </section>
         <section class="main-input">
             <div class="main-input--container">
                 <span class="search-icon"></span>
-                <input type="text">
+                <input type="text"> <!-- En la rama Layout se usa un place holder, para describir un ejemplo o finalidad del input, que es buscar o escribir una URL -->
                 <a class="voice-icon" href="#"></a>
             </div>
         </section>
         <section class="main-buttons">
             <div>
-                <button>Buscar con Google</button>
+                <button>Buscar con Google</button> <!-- En la rama Layout si hay texto pero es solo el ejemplo de Lorem, y aquí ya está lleno -->
             </div>
             <div>
-                <button>Me siento con suerte</button>
+                <button>Me siento con suerte</button> <!-- Al igual que el botón anterior ya está el texto deseado en la rama Master -->
             </div>
         </section>
     </main>
@@ -70,7 +72,7 @@
         <ul class="footer-right">
             <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
             <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
-            <li><a href="https://www.google.com/preferences?hl=es-419">Preferencias</a></li>
+            <li><a href="https://www.google.com/preferences?hl=es-419">Preferencias</a></li><!-- En estas dos úlimas listas, en l rama Mater ya hay URLs y a lo que se refieren. -->
         </ul>
     </footer>
 </body>
